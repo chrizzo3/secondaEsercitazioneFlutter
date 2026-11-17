@@ -1,11 +1,6 @@
 # To-Do List (Seconda Esercitazione)
 
-Applicazione Flutter per la gestione di una lista di attività (to-do list), sviluppata per prendere confidenza con:
-- Composizione di widget (StatelessWidget, StatefulWidget, Material Design 3)
-- Gestione dello stato dell'applicazione (`setState`)
-- Input dell'utente e validazione dei form (`Form`, `TextFormField`, `SwitchListTile`)
-- Navigazione tra schermate (`Navigator.push`, `Navigator.pop`)
-
+Applicazione Flutter per la gestione di una lista di attività (to-do list)
 ---
 
 ## 📋 Dominio
@@ -64,50 +59,3 @@ test/
 ```
 
 ---
-
-## 🧪 Esecuzione dei Test
-
-Per verificare il corretto funzionamento di tutti i requisiti e scenari:
-
-```bash
-flutter test
-```
-
----
-
-## 📱 Come Eseguire l'App
-
-### 1. Su Emulatore Android
-1. Apri Android Studio ed avvia un dispositivo virtuale dal **Device Manager**.
-2. Esegui il comando:
-   ```bash
-   flutter run
-   ```
-
-### 2. Su Smartphone Fisico
-1. Sul tuo smartphone Android, abilita le **Opzioni sviluppatore** (toccando 7 volte il *Numero di build* nelle impostazioni di sistema) e attiva il **Debug USB**.
-2. Collega lo smartphone al computer tramite cavo USB e autorizza il debug dal prompt sullo schermo del telefono.
-3. Verifica che il dispositivo sia riconosciuto eseguendo:
-   ```bash
-   flutter devices
-   ```
-4. Avvia l'app specificando il dispositivo (oppure semplicemente `flutter run` se è l'unico connesso).
-
----
-
-## 🌐 Pubblicazione su GitHub
-
-Per caricare il progetto su una repository pubblica di GitHub:
-
-1. Inizializza git (se non già fatto) e aggiungi i file:
-   ```bash
-   git add .
-   git commit -m "Implementazione completata to-do list (Seconda Esercitazione)"
-   ```
-2. Crea una nuova repository pubblica su GitHub (senza inizializzarla con README o .gitignore).
-3. Collega il remote ed effettua il push:
-   ```bash
-   git remote add origin https://github.com/<tuo-username>/<nome-repo>.git
-   git branch -M main
-   git push -u origin main
-   ```
